@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px #Dynamic Data Visualization tool
+#import plotly.express as px #Dynamic Data Visualization tool
 
 st.title("Cricket info app")
 
@@ -57,12 +57,12 @@ with col5:
 
 
 
-fig_matches=px.pie(
-    matches,
-    names="Country",
-    values="Matches",
-    title="Country wise matches"
-)
+# fig_matches=px.pie(
+#     matches,
+#     names="Country",
+#     values="Matches",
+#     title="Country wise matches"
+# )
 
-st.plotly_chart(fig_matches)
+# st.plotly_chart(fig_matches)
 
